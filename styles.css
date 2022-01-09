@@ -1,0 +1,41 @@
+body {
+  background: -webkit-linear-gradient(-45deg, rgba(238,119,82,1) 0%, rgba(231,60,126,1) 33%, rgba(35,166,213,1) 66%, rgba(35,213,171,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(238,119,82,1) 0%, rgba(231,60,126,1) 33%, rgba(35,166,213,1) 66%, rgba(35,213,171,1) 100%);
+  background: linear-gradient(-45deg, rgba(238,119,82,1) 0%, rgba(231,60,126,1) 33%, rgba(35,166,213,1) 66%, rgba(35,213,171,1) 100%);
+  animation: swing 15s ease infinite;
+  background-size: 300% 300%;
+  height: 100vh;
+  color: white;
+  font-family: "Segoe UI";
+  margin: 0;
+  text-align:center;
+}
+
+@keyframes swing {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 50% 100%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+hr {
+  width: 50%;
+}
+
+.img-container {
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+}
+
+table {
+  text-align: left;
+}
